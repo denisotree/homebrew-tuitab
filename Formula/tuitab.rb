@@ -12,33 +12,33 @@
 # `shasum -a 256 <tarball>` for each GitHub Release asset.
 
 class Tuitab < Formula
-  desc "Terminal tabular data explorer — CSV/JSON/Parquet/Excel/SQLite viewer"
+  desc "Terminal tabular data explorer — CSV/JSON/YAML/TOML/Parquet/Excel/SQLite viewer"
   homepage "https://github.com/denisotree/tuitab"
   license "Apache-2.0"
   head "https://github.com/denisotree/tuitab.git", branch: "master"
 
   on_macos do
     on_arm do
-      url "https://github.com/denisotree/tuitab/releases/download/v0.4.3/tuitab-v0.4.3-aarch64-apple-darwin.tar.gz"
-      sha256 "dc101e42e46d6a1d6ceaa80a32099e171df735b23a729427bb4178b00598f2aa"
-      version "0.4.3"
+      url "https://github.com/denisotree/tuitab/releases/download/v0.5.0/tuitab-v0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ead8362504fff258c5716a9caa97a7b73c050b86a9f97a1a039f63c94472c442"
+      version "0.5.0"
     end
     on_intel do
-      url "https://github.com/denisotree/tuitab/releases/download/v0.4.3/tuitab-v0.4.3-x86_64-apple-darwin.tar.gz"
-      sha256 "2a218daa979c346fa33ac4fa8c97b0cea7b0b8b30a5b4b2d23886c9bd5e8e44b"
-      version "0.4.3"
+      url "https://github.com/denisotree/tuitab/releases/download/v0.5.0/tuitab-v0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fcbf69e3aebc3eaa242dce2a358b40ad8acfa53a74f6bd766caf366c82a091f6"
+      version "0.5.0"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/denisotree/tuitab/releases/download/v0.4.3/tuitab-v0.4.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c67d17a0467a753a0102aa9f7d5d821c4830a084b3de0dd3119f6a3f8a6e14a1"
-      version "0.4.3"
+      url "https://github.com/denisotree/tuitab/releases/download/v0.5.0/tuitab-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7d900dd25a463df71936796b4c2a42404ae001296ef9cb9539a578a3fef1cec5"
+      version "0.5.0"
     end
     on_intel do
-      url "https://github.com/denisotree/tuitab/releases/download/v0.4.3/tuitab-v0.4.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "eac651f8807a53682fdfe87fb8e64739761db05f5a69daa4243ec045924c0a24"
-      version "0.4.3"
+      url "https://github.com/denisotree/tuitab/releases/download/v0.5.0/tuitab-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9746a161d3d305ef2becab6073c28182ea88252b2881d5720165bfb67ad26b09"
+      version "0.5.0"
     end
   end
 
